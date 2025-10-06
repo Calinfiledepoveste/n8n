@@ -1,5 +1,5 @@
 # Folosește imaginea oficială n8n ca punct de plecare
-FROM n8nio/n8n:113.3
+FROM n8nio/n8n:110.0
 
 # Treci la utilizatorul root pentru a avea permisiunea de a instala
 USER root
