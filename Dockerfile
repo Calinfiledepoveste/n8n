@@ -5,7 +5,8 @@ FROM n8nio/n8n:latest
 USER root
 
 # Instalează pachetele de noduri comunitare necesare
-RUN npm install n8n-nodes-chroma n8n-nodes-pdf-parse @n8n/n8n-nodes-langchain@latest
+# RUN npm install n8n-nodes-chroma n8n-nodes-pdf-parse @n8n/n8n-nodes-langchain@latest
+RUN npm install n8n-nodes-pdf-parse @n8n/n8n-nodes-langchain@latest
 
 # Treci înapoi la utilizatorul securizat 'node'
 USER node
